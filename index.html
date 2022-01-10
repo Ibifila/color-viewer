@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colour Viewer</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="heading">
+        <h1>COLOR VIEWER</h1>
+        <p>
+            <em>Here is a simple color viewer to help you see what different colors look like.</em>
+        </p>
+    </div>
+    <main>
+        <div class="color-box" id="color-box">
+        </div>
+        <div class="col-name" id="col-name">
+            <input type="text" name="name" id="name" required placeholder="Enter color name" />
+            <p>Enter the name of the color you want to view (e.g. red, green, etc).
+                You can also enter the hex code of a color you want to view (e.g. #45FE32).
+                Your code should start with a "#" and include 6 characters which can be numbers (0-9) and alphabets (A-F).
+            </p>
+            <button class="btn submit" id="submit-col">View color</button>
+        </div>
+    </main>
+
+    <!-- javascript -->
+    <script src="app.js"></script>
+</body>
+
+</html>
